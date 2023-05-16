@@ -1,0 +1,23 @@
+{
+    "name": "dartmoon/laravel-route-helpers",
+    "description": "Set of helper for the Route facade",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dartmoon\\LaravelRouteHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dartmoon",
+            "email": "hello@dartmoon.io"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dartmoon\\LaravelRouteHelper\\LaravelRouteHelperServiceProvider"
+            ]
+        }
+    }
+}
